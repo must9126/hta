@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<!-- 주석 -->
+
+<VBox alignment="CENTER" prefHeight="242.0" prefWidth="341.0" stylesheets="@par.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+
+	<children>
+      <Button fx:id="lb1" mnemonicParsing="false" prefHeight="65.0" prefWidth="126.0" stylesheets="@par.css" text="Button" />
+		<Label id="lb1" alignment="CENTER" contentDisplay="RIGHT" prefHeight="59.0" prefWidth="212.0" text="와 라벨이다" textFill="#eb0303">
+         <font>
+            <Font name="Batang" size="50.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" prefHeight="16.0" prefWidth="130.0" text="CheckBox" />
+      <ComboBox prefHeight="31.0" prefWidth="150.0" />
+	</children>
+</VBox>

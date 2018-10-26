@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+	
+	<fx:script>
+		function btnClk(){
+			var str=tf1.getText();
+			label1.setText('입력글자:'+str);
+		}
+	</fx:script>
+
+   <top>
+      <Label fx:id='label1' prefHeight="21.0" prefWidth="172.0" text="Label" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <TextField fx:id='tf1' BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Button onAction="btnClk();" text="Button" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

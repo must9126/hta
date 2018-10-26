@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorp" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thread_p.BuckdolController">
+   <children>
+      <Pane fx:id="b9p" focusTraversable="true" layoutX="402.0" layoutY="-2.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b8" focusTraversable="true" layoutX="201.0" layoutY="-2.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b7p" focusTraversable="true" layoutY="-2.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b6p" focusTraversable="true" layoutX="402.0" layoutY="19.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b5p" focusTraversable="true" layoutX="201.0" layoutY="19.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b4p" focusTraversable="true" layoutY="19.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b3p" focusTraversable="true" layoutX="402.0" layoutY="40.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b2p" focusTraversable="true" layoutX="201.0" layoutY="40.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="b1p" focusTraversable="true" layoutY="40.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="20.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="barp" layoutX="69.0" layoutY="550.0" prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Rectangle fx:id="bar" arcHeight="5.0" arcWidth="5.0" fill="#d75959" height="20.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="ballp" focusTraversable="true" layoutX="279.0" layoutY="490.0" prefHeight="44.0" prefWidth="44.0">
+         <children>
+            <Circle fx:id="ball" fill="#adadad98" focusTraversable="true" layoutX="22.0" layoutY="22.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane layoutX="69.0" layoutY="450.0" prefHeight="33.0" prefWidth="50.0" style="-fx-background-color: Green;" />
+   </children>
+</AnchorPane>
